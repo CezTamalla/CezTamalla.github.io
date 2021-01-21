@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+  background-image: url("images/paint-drops-black-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+ 
+}
+.offset:before{
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+
+}
+/*Navigation*/
+.navbar{
+  font-weight: 300;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: #000000 !important;
+}
+/*.navbar-brand img{
+for logo
+}*/
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  border-bottom: 2px solid white;
+}
+.name-color {
+  color: gold;
+}
+.container{
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+}
+.heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: gold;
+    margin: 0 auto 2rem;
+}
+h3.heading{
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 1.9rem;
+    color: white;
+    font-family: Consolas;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}
+.col-md-4 img { 
+     max-width:100%;
+     height:auto;
+     margin-top: 25%;
+      }
+.col-md-8{
+    margin-top: 12%;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: Consolas;
+    color: white;
+    line-height: 2;
+}
+.btn-warning {
+  width: 280px;
+  height: 50px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.col-md-6 {
+  color: white;
+  font-family: Consolas;
+}
+.quote{
+    font-size: 1.3rem;
+    line-height: 2;
+    margin-top: 12%;
+    width: 50%;
+}
+#sets_image {
+  margin:0 auto;
+  width:530px;
+  height:400px;
+  transition: background-image 1s ease-in-out;
+  background-image:url("images/sets2.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 8%;
+}
+#sets_image:hover {
+  background-image:url("images/sets3.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}   
+#my_works{
+  padding-bottom: 10%;
+}
+.btn-outline-warning {
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.grow img {
+  width: 300px;
+  position: relative;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+   
+}
+#contact{
+    background-color: #000000;
+}
+footer{
+    color: black;
+    font-size: 1.2rem;
+    font-family: Consolas;
+
+}
+footer .icon{
+    color: white;
+     font-size: 2.5rem;
+     padding-right: 5px;
+     padding-top: 10px;
+
+}
+#mail-icon:hover {
+  cursor: pointer;
+}
