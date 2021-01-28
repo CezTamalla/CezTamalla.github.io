@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) {
-	.col-md-4, .col-md-8, .col-md-6, .col-12 {
+	.col-md-4, .col-md-8, .col-md-6, .col-12, .fixed-top {
 		width: 100%;
 		height: auto;
 		margin-right: auto;
@@ -13,7 +13,7 @@
 	}
 }
 @media screen and (max-width: 400px) {
-	.col-md-4, .col-md-8, .col-md-6, .col-12 {
+	.col-md-4, .col-md-8, .col-md-6, .col-12, .fixed-top {
 		width: 100%;
 		height: auto;
 		margin-right: auto;
