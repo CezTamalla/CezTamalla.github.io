@@ -12,3 +12,17 @@
   		width: 80%;
 	}
 }
+@media screen and (max-width: 400px) {
+	.col-md-4, .col-md-8, .col-md-6, .col-12 {
+		width: 100%;
+		height: auto;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.col-md-4 img, .calc-img, .shadow {
+		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+  		width: 80%;
+	}
+}
